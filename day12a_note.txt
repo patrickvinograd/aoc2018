@@ -1,0 +1,6 @@
+Observed that after some number of generations the pattern becomes a glider
+moving to the right. Each successive generation scores 53 points more
+than the previous generation because the glider is 53 pots wide.
+
+So, find x = score at some generation g after stability, calculate
+(50000000000 - g) * 53 + x
